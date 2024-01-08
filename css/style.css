@@ -74,4 +74,136 @@ body > header > nav > ul {
     background-position: center;
    }
 
-   
+   .background-text {
+    text-align: center;
+   }
+
+   #background img {
+    margin: 40px 0;
+}
+
+#background h1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #e3c6e6;
+    margin-bottom: 10px;
+}
+
+#background h2 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 950;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#background p {
+    font-size: 28px;
+    color: #fff;
+}
+
+.title-grid {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.title-grid h1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+
+.title-grid p {
+    color: #888;
+    margin-bottom: 80px;
+}
+
+.bold {
+    font-weight: 700;
+    color: #555;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px 20px;
+    justify-items: center;
+}
+.thumbnail {
+    width: 435px;
+    height: 363px;
+    margin-bottom: 40px;
+}
+
+.thumbnail-bot {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: 3, 1fr;
+    padding: 20px 10px;
+    background-color: #eaf0f0;
+    color: #989898;
+    margin-top: -10px;
+    border-radius: 10px;
+    
+}
+
+.thumbnail-bot img {
+    grid-column: 1;
+    border-radius: 10px;
+}
+
+.bold2 {
+    grid-column: 2;
+    font-size: 20px;
+    color: #272727;
+    font-weight: 700;
+}
+
+.thumbnail p {
+    grid-column: 2;
+}
+
+/* Bloc du dessous */
+
+#book {
+   margin: 90px 110px 
+}
+
+#text-book{
+    margin-left: -90px ;
+    
+}
+#text-book h1 {
+    padding: 25px 0;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 750;
+}
+
+#text-book p {
+    
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-bottom: 25px;
+}
+
+.bold3 {
+    color: #484848;
+    font-weight: 800;
+}
+#text-book ul {
+    padding-left: 15px;
+}
+#text-book ul li {
+    font-size: 15px;
+    color: #6b6b6b;
+    margin-bottom: 25px;
+    list-style-type: square ;
+    
+}
